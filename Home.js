@@ -46,44 +46,6 @@ const Home = () => {
         }
     }
 
-    // const params= useParams();
-    // const [swiperRef, setSwiperRef] = useState(null);
-
-    // const progressCircle = useRef(null);
-    // const progressContent = useRef(null);
-    // const onAutoplayTimeLeft = (s, time, progress) => {
-    //     progressCircle.current.style.setProperty('--progress', 1 - progress);
-    //     progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
-    // };
-
-    // let appendNumber = 4;
-    // let prependNumber = 1;
-
-    // const prepend2 = () => {
-    //     swiperRef.prependSlide([
-    //         '<div class="swiper-slide">Slide ' + --prependNumber + '</div>',
-    //         '<div class="swiper-slide">Slide ' + --prependNumber + '</div>',
-    //     ]);
-    // };
-
-    // const prepend = () => {
-    //     swiperRef.prependSlide(
-    //         '<div class="swiper-slide">Slide ' + --prependNumber + '</div>'
-    //     );
-    // };
-
-    // const append = () => {
-    //     swiperRef.appendSlide(
-    //         '<div class="swiper-slide">Slide ' + ++appendNumber + '</div>'
-    //     );
-    // };
-
-    // const append2 = () => {
-    //     swiperRef.appendSlide([
-    //         '<div class="swiper-slide">Slide ' + ++appendNumber + '</div>',
-    //         '<div class="swiper-slide">Slide ' + ++appendNumber + '</div>',
-    //     ]);
-    // };
 
     useEffect(() => {
         getProducts();
